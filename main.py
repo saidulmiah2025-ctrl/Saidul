@@ -21,8 +21,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # === CONFIG ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-DATABASE_URL = os.getenv("DATABASE_URL")  # set this in Render environment variables
+BOT_TOKEN = os.getenv("8205548999:AAEW7lTbSnvpvGLQd_K_DxIBAQBXCTcl6M0")
+DATABASE_URL = os.getenv("https://saidul-like.vercel.app/")  # set this in Render environment variables
 
 if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
